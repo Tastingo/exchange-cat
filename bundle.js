@@ -12388,21 +12388,27 @@ utils.intFromLE = intFromLE;
 
 },{"bn.js":15,"minimalistic-assert":182,"minimalistic-crypto-utils":183}],119:[function(require,module,exports){
 module.exports={
-  "_from": "elliptic@^6.4.0",
+  "_args": [
+    [
+      "elliptic@6.5.1",
+      "/home/chmwang/exchange-cat"
+    ]
+  ],
+  "_from": "elliptic@6.5.1",
   "_id": "elliptic@6.5.1",
   "_inBundle": false,
   "_integrity": "sha512-xvJINNLbTeWQjrl6X+7eQCrIy/YPv5XCpKW6kB5mKvtnGILoLDcySuwomfdzt0BMdLNVnuRNTuzKNHj0bva1Cg==",
   "_location": "/elliptic",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "elliptic@^6.4.0",
+    "raw": "elliptic@6.5.1",
     "name": "elliptic",
     "escapedName": "elliptic",
-    "rawSpec": "^6.4.0",
+    "rawSpec": "6.5.1",
     "saveSpec": null,
-    "fetchSpec": "^6.4.0"
+    "fetchSpec": "6.5.1"
   },
   "_requiredBy": [
     "/browserify-sign",
@@ -12411,9 +12417,8 @@ module.exports={
     "/secp256k1"
   ],
   "_resolved": "https://registry.npmjs.org/elliptic/-/elliptic-6.5.1.tgz",
-  "_shasum": "c380f5f909bf1b9b4428d028cd18d3b0efd6b52b",
-  "_spec": "elliptic@^6.4.0",
-  "_where": "/Users/chmwang/git_repo/exchange-cat/node_modules/eth-sig-util",
+  "_spec": "6.5.1",
+  "_where": "/home/chmwang/exchange-cat",
   "author": {
     "name": "Fedor Indutny",
     "email": "fedor@indutny.com"
@@ -12421,7 +12426,6 @@ module.exports={
   "bugs": {
     "url": "https://github.com/indutny/elliptic/issues"
   },
-  "bundleDependencies": false,
   "dependencies": {
     "bn.js": "^4.4.0",
     "brorand": "^1.0.1",
@@ -12431,7 +12435,6 @@ module.exports={
     "minimalistic-assert": "^1.0.0",
     "minimalistic-crypto-utils": "^1.0.0"
   },
-  "deprecated": false,
   "description": "EC cryptography",
   "devDependencies": {
     "brfs": "^1.4.3",
