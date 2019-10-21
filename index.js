@@ -15,7 +15,8 @@ callContractButton.addEventListener('click', function(event) {
   var source = web3.eth.accounts[0]
   if (!source) return connect()
 
-  var target = '0x351C54BE57c7d49CB074A47E030d8c5994eEAA16'
+  //var target = '0x351C54BE57c7d49CB074A47E030d8c5994eEAA16'
+  var target = '0xF83067507b3894e06fD161a438b0729FBec1b564'
   var data = web3.sha3('exchange()')
   data = data.slice(0, 10)
 
